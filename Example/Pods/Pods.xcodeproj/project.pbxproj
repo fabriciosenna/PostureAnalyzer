@@ -11,7 +11,6 @@
 		2553978D1F05870B2A64A7D54E56115B /* Pods-PostureAnalyzer_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8233C15E192AFB02B215CE86C5EAE1 /* Pods-PostureAnalyzer_Tests-dummy.m */; };
 		58041A9F35796A861BCA8CB5FA3DFFF9 /* Pods-PostureAnalyzer_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 998401094319469924961F0C1C52D012 /* Pods-PostureAnalyzer_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5D654C07F18622E64E6E58CD84B43EBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		7285382258E1096C17D3394877D9B517 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495701F983B2FCEDC1E53972658EC900 /* ReplaceMe.swift */; };
 		79C87C833D07690730F2B56D4C40638A /* Pods-PostureAnalyzer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6C703C4055606F5366EF0CDE2BDD39 /* Pods-PostureAnalyzer_Example-dummy.m */; };
 		99E3F80B6D84D15494874313AF8F7726 /* Pods-PostureAnalyzer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 98DCA9028E5A554A8D5B0D81823CCD05 /* Pods-PostureAnalyzer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A496FE2EC7A41EF59F71FD86554AAD07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -44,32 +43,31 @@
 		267A1D455D5B82C6E16E25DC2B67F8E7 /* PostureAnalyzer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PostureAnalyzer-Info.plist"; sourceTree = "<group>"; };
 		285E6CA34C3748BAB14489F164C260DA /* PostureAnalyzer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PostureAnalyzer-dummy.m"; sourceTree = "<group>"; };
 		33DEB59064511F61773C3A65495FC08B /* PostureAnalyzer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PostureAnalyzer.modulemap; sourceTree = "<group>"; };
-		3548813E380AA0F3A8C117606F6A9E6F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3548813E380AA0F3A8C117606F6A9E6F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3E1301E28183BD6FF80FB01F80418E3D /* Pods-PostureAnalyzer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PostureAnalyzer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		476ACBBDB6C27C94724317C925F0599C /* Pods-PostureAnalyzer_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PostureAnalyzer_Example.modulemap"; sourceTree = "<group>"; };
-		495701F983B2FCEDC1E53972658EC900 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = PostureAnalyzer/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		4D58F5745760FCEF4134E66446351FAB /* Pods-PostureAnalyzer_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PostureAnalyzer_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		4EF4D34AC45E44BC06D170F0E8CA6FCC /* Pods-PostureAnalyzer_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PostureAnalyzer_Tests.modulemap"; sourceTree = "<group>"; };
 		5E25B96110DE8C5EF6BF910A9529DB9E /* PostureAnalyzer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PostureAnalyzer.release.xcconfig; sourceTree = "<group>"; };
 		69273E182F61C9D0B915C2178B9A25D4 /* Pods-PostureAnalyzer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PostureAnalyzer_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		692CC3D5AA68357D745F604A5ABB54BE /* PostureAnalyzer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PostureAnalyzer.framework; path = PostureAnalyzer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		692CC3D5AA68357D745F604A5ABB54BE /* PostureAnalyzer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PostureAnalyzer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		97B0A3593E3F2A35DFF9A9E0024249B8 /* PostureAnalyzer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PostureAnalyzer-prefix.pch"; sourceTree = "<group>"; };
 		98DCA9028E5A554A8D5B0D81823CCD05 /* Pods-PostureAnalyzer_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PostureAnalyzer_Example-umbrella.h"; sourceTree = "<group>"; };
 		998401094319469924961F0C1C52D012 /* Pods-PostureAnalyzer_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PostureAnalyzer_Tests-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A1BC30A5EE5FC18900B2973C4F516D37 /* Pods-PostureAnalyzer_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PostureAnalyzer_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A3D49CA8E4291FBAFD3FD4732C51F268 /* Pods-PostureAnalyzer_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PostureAnalyzer_Tests-Info.plist"; sourceTree = "<group>"; };
 		A572430FD8F25D790CAA72617E972B8C /* Pods-PostureAnalyzer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PostureAnalyzer_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A59A2E92D5FAEFEB4BA69D69DB60993F /* Pods-PostureAnalyzer_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PostureAnalyzer_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		AAE5DEAB14F372E666414EA60E769556 /* Pods_PostureAnalyzer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PostureAnalyzer_Example.framework; path = "Pods-PostureAnalyzer_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAE5DEAB14F372E666414EA60E769556 /* Pods_PostureAnalyzer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PostureAnalyzer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7792747EE79D5704953EBBD09BF3831 /* Pods-PostureAnalyzer_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PostureAnalyzer_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		BA6C703C4055606F5366EF0CDE2BDD39 /* Pods-PostureAnalyzer_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PostureAnalyzer_Example-dummy.m"; sourceTree = "<group>"; };
 		DC8233C15E192AFB02B215CE86C5EAE1 /* Pods-PostureAnalyzer_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PostureAnalyzer_Tests-dummy.m"; sourceTree = "<group>"; };
 		DD0FACCC4AA40FA32C2B3CAA9BE8BEB1 /* Pods-PostureAnalyzer_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PostureAnalyzer_Example-Info.plist"; sourceTree = "<group>"; };
-		E07A956577CE3EBE0AA1DDE44B53ACD6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		F62D80191265CE506C6D2A145C92A142 /* Pods_PostureAnalyzer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PostureAnalyzer_Tests.framework; path = "Pods-PostureAnalyzer_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F737085A54AD2E025CEC36D083866630 /* PostureAnalyzer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PostureAnalyzer.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E07A956577CE3EBE0AA1DDE44B53ACD6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		F62D80191265CE506C6D2A145C92A142 /* Pods_PostureAnalyzer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PostureAnalyzer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F737085A54AD2E025CEC36D083866630 /* PostureAnalyzer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = PostureAnalyzer.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,10 +194,41 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		DF37CF4B25B217C0003705CD /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		DF37CF4C25B217CC003705CD /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		DF37CF4D25B217DA003705CD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DF37CF4E25B217EE003705CD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		E6E42CD344909593562053A29BF0217F /* PostureAnalyzer */ = {
 			isa = PBXGroup;
 			children = (
-				495701F983B2FCEDC1E53972658EC900 /* ReplaceMe.swift */,
+				DF37CF4D25B217DA003705CD /* Controllers */,
+				DF37CF4C25B217CC003705CD /* Service */,
+				DF37CF4B25B217C0003705CD /* Helpers */,
+				DF37CF4E25B217EE003705CD /* Resources */,
 				BF1C3411A5BFA04741BE3774F0ABD112 /* Pod */,
 				3B4383C021A017D38FBFD47B356A762F /* Support Files */,
 			);
@@ -368,7 +397,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A562315845AADD34D9B443DBA6494A98 /* PostureAnalyzer-dummy.m in Sources */,
-				7285382258E1096C17D3394877D9B517 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,7 +487,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -487,7 +515,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/PostureAnalyzer/PostureAnalyzer-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/PostureAnalyzer/PostureAnalyzer-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/PostureAnalyzer/PostureAnalyzer.modulemap";
 				PRODUCT_MODULE_NAME = PostureAnalyzer;
@@ -552,13 +580,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -579,7 +606,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/PostureAnalyzer/PostureAnalyzer-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/PostureAnalyzer/PostureAnalyzer-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/PostureAnalyzer/PostureAnalyzer.modulemap";
 				PRODUCT_MODULE_NAME = PostureAnalyzer;
