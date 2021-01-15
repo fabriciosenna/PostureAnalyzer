@@ -18,6 +18,7 @@
 		BFCD16CA26F3F46534A92FC51025D068 /* PostureAnalyzer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DBDE5C1F537D6A5CB78A00CF8425ED6 /* PostureAnalyzer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DF37CF5625B21D0C003705CD /* PoseNetMobileNet100S16FP16.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DF37CF5525B21D0C003705CD /* PoseNetMobileNet100S16FP16.mlmodel */; };
 		DF37CF5B25B21E5E003705CD /* ViewConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF37CF5A25B21E5E003705CD /* ViewConfiguration.swift */; };
+		DF37CF6025B21EF4003705CD /* ImageAnalyzerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF37CF5F25B21EF4003705CD /* ImageAnalyzerService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		DD0FACCC4AA40FA32C2B3CAA9BE8BEB1 /* Pods-PostureAnalyzer_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PostureAnalyzer_Example-Info.plist"; sourceTree = "<group>"; };
 		DF37CF5525B21D0C003705CD /* PoseNetMobileNet100S16FP16.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = PoseNetMobileNet100S16FP16.mlmodel; sourceTree = "<group>"; };
 		DF37CF5A25B21E5E003705CD /* ViewConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewConfiguration.swift; sourceTree = "<group>"; };
+		DF37CF5F25B21EF4003705CD /* ImageAnalyzerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAnalyzerService.swift; sourceTree = "<group>"; };
 		E07A956577CE3EBE0AA1DDE44B53ACD6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		F62D80191265CE506C6D2A145C92A142 /* Pods_PostureAnalyzer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PostureAnalyzer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F737085A54AD2E025CEC36D083866630 /* PostureAnalyzer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = PostureAnalyzer.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -209,6 +211,7 @@
 		DF37CF4C25B217CC003705CD /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				DF37CF5F25B21EF4003705CD /* ImageAnalyzerService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -410,6 +413,7 @@
 				DF37CF5B25B21E5E003705CD /* ViewConfiguration.swift in Sources */,
 				A562315845AADD34D9B443DBA6494A98 /* PostureAnalyzer-dummy.m in Sources */,
 				DF37CF5625B21D0C003705CD /* PoseNetMobileNet100S16FP16.mlmodel in Sources */,
+				DF37CF6025B21EF4003705CD /* ImageAnalyzerService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
