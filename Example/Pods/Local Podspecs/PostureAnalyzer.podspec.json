@@ -1,0 +1,22 @@
+{
+  "name": "PostureAnalyzer",
+  "version": "0.1.0",
+  "summary": "A short description of PostureAnalyzer.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/fabriciosenna/PostureAnalyzer",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "fabriciosenna": "fabriciosenna@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/fabriciosenna/PostureAnalyzer.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "PostureAnalyzer/Classes/**/*"
+}

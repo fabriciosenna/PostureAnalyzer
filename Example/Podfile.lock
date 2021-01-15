@@ -1,0 +1,16 @@
+PODS:
+  - PostureAnalyzer (0.1.0)
+
+DEPENDENCIES:
+  - PostureAnalyzer (from `../`)
+
+EXTERNAL SOURCES:
+  PostureAnalyzer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PostureAnalyzer: a2cf4d3da1824c4f1753bc5bf4c416dba8af17b0
+
+PODFILE CHECKSUM: dbc7cc0b0aaea182d2ca2d1478358777c437cd70
+
+COCOAPODS: 1.10.0

@@ -1,0 +1,6 @@
+framework module Pods_PostureAnalyzer_Example {
+  umbrella header "Pods-PostureAnalyzer_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

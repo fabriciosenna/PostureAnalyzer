@@ -1,0 +1,6 @@
+framework module PostureAnalyzer {
+  umbrella header "PostureAnalyzer-umbrella.h"
+
+  export *
+  module * { export * }
+}

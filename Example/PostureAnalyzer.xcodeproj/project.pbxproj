@@ -33,7 +33,7 @@
 		22E4D87E485B4DBE800A690C /* Pods-PostureAnalyzer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PostureAnalyzer_Example.debug.xcconfig"; path = "Target Support Files/Pods-PostureAnalyzer_Example/Pods-PostureAnalyzer_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		366D1CBDA7F8B75A520F5B69 /* Pods-PostureAnalyzer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PostureAnalyzer_Example.release.xcconfig"; path = "Target Support Files/Pods-PostureAnalyzer_Example/Pods-PostureAnalyzer_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3BBD6A9B02138AA4ACB5A62E /* Pods-PostureAnalyzer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PostureAnalyzer_Tests.release.xcconfig"; path = "Target Support Files/Pods-PostureAnalyzer_Tests/Pods-PostureAnalyzer_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		59D376FA8A81285756656C0E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		59D376FA8A81285756656C0E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* PostureAnalyzer_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PostureAnalyzer_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,8 +45,8 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		74576CB4A7655A2BEED6B341 /* Pods_PostureAnalyzer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PostureAnalyzer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A4B27EBD56A54EC20B3AD67F /* PostureAnalyzer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = PostureAnalyzer.podspec; path = ../PostureAnalyzer.podspec; sourceTree = "<group>"; };
-		B184874A414C86CB36B3E5F9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A4B27EBD56A54EC20B3AD67F /* PostureAnalyzer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PostureAnalyzer.podspec; path = ../PostureAnalyzer.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B184874A414C86CB36B3E5F9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,6 @@
 				13DFB465DAD63B516388551D /* Pods-PostureAnalyzer_Tests.debug.xcconfig */,
 				3BBD6A9B02138AA4ACB5A62E /* Pods-PostureAnalyzer_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
