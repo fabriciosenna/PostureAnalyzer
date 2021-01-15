@@ -17,6 +17,7 @@
 		A562315845AADD34D9B443DBA6494A98 /* PostureAnalyzer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 285E6CA34C3748BAB14489F164C260DA /* PostureAnalyzer-dummy.m */; };
 		BFCD16CA26F3F46534A92FC51025D068 /* PostureAnalyzer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DBDE5C1F537D6A5CB78A00CF8425ED6 /* PostureAnalyzer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DF37CF5625B21D0C003705CD /* PoseNetMobileNet100S16FP16.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DF37CF5525B21D0C003705CD /* PoseNetMobileNet100S16FP16.mlmodel */; };
+		DF37CF5B25B21E5E003705CD /* ViewConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF37CF5A25B21E5E003705CD /* ViewConfiguration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		DC8233C15E192AFB02B215CE86C5EAE1 /* Pods-PostureAnalyzer_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PostureAnalyzer_Tests-dummy.m"; sourceTree = "<group>"; };
 		DD0FACCC4AA40FA32C2B3CAA9BE8BEB1 /* Pods-PostureAnalyzer_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PostureAnalyzer_Example-Info.plist"; sourceTree = "<group>"; };
 		DF37CF5525B21D0C003705CD /* PoseNetMobileNet100S16FP16.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = PoseNetMobileNet100S16FP16.mlmodel; sourceTree = "<group>"; };
+		DF37CF5A25B21E5E003705CD /* ViewConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewConfiguration.swift; sourceTree = "<group>"; };
 		E07A956577CE3EBE0AA1DDE44B53ACD6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		F62D80191265CE506C6D2A145C92A142 /* Pods_PostureAnalyzer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PostureAnalyzer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F737085A54AD2E025CEC36D083866630 /* PostureAnalyzer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = PostureAnalyzer.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -199,6 +201,7 @@
 		DF37CF4B25B217C0003705CD /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				DF37CF5A25B21E5E003705CD /* ViewConfiguration.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -349,6 +352,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					D4A31E7D8F18502E3EE10B9D8346AEFA = {
+						LastSwiftMigration = 1230;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -399,6 +407,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF37CF5B25B21E5E003705CD /* ViewConfiguration.swift in Sources */,
 				A562315845AADD34D9B443DBA6494A98 /* PostureAnalyzer-dummy.m in Sources */,
 				DF37CF5625B21D0C003705CD /* PoseNetMobileNet100S16FP16.mlmodel in Sources */,
 			);
@@ -508,6 +517,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 15DD09D33D098EECCF81C5EFBEE9775D /* PostureAnalyzer.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -527,6 +537,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -599,6 +610,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5E25B96110DE8C5EF6BF910A9529DB9E /* PostureAnalyzer.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
